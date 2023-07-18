@@ -51,25 +51,4 @@ pipeline {
             }
         }
     }
-    post {
-        always {
-            // Default values
-            def colorName = 'RED'
-            def colorCode = '#FF0000'
-            def subject = "${currentBuild.currentResult}: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'"
-            def summary = "${subject} (${env.BUILD_URL})"
-
-            // Override default values based on build status
-            if (currentBuild.currentResult == 'SUCCESS') {
-                colorName = 'GREEN'
-                colorCode = '#00FF00'
-            } else if (currentBuild.currentResult == 'STARTED') {
-                colorName = 'ORANGE'
-                colorCode = '#FFA500'
-            }
-
-            // Send notifications
-            slackSend(color: colorCode, message: summary, channel: "#walmart")
-        }
-    }
 }
