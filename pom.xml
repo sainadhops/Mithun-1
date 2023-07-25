@@ -30,11 +30,6 @@
 
 	</properties>
 
-	<sonar.host.url>http://54.86.60.248:9000</sonar.host.url>
-        <sonar.organization>midhun</sonar.organization>
-        <sonar.projectKey>midhun</sonar.projectKey>
-        <sonar.login>sqp_703849af3cb1f40555f4698af0c273e5bbed2540</sonar.login>
-
 	<dependencies>
 		
 		<dependency>
