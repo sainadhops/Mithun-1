@@ -25,7 +25,7 @@
         <sonar.host.url>http://34.201.132.253:9000</sonar.host.url>
         <sonar.organization>midhun</sonar.organization>
         <sonar.projectKey>midhun</sonar.projectKey>
-        <sonar.login>sqp_5302ffaad2dc6e148adfba2a28d7463c4141d9dc</sonar.login>
+        <sonar.login>sqp_ae01ef4fa3869da896bd99ec5eb9d30cf944f98a</sonar.login>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
