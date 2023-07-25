@@ -16,6 +16,11 @@
 		<url>http://mithuntechnologies.com/</url>
 	</organization>
 
+	<sonar.host.url>http://3.87.239.37:9000</sonar.host.url>
+        <sonar.organization>midhun</sonar.organization>
+        <sonar.projectKey>midhun</sonar.projectKey>
+        <sonar.login>sqp_6f2cea8ed32e7a0f36a0968cdaa66c2dec8a5f20</sonar.login>
+
 	<properties>
 		<jdk.version>1.8</jdk.version>
 		<spring.version>5.1.2.RELEASE</spring.version>
